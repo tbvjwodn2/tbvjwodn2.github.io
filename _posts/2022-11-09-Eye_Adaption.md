@@ -7,14 +7,16 @@ categories: lumen, ue5
 ### 화면의 밝기
 
 Exposure = 1/(2^(EV100 + Exposure Compensation))
+
 EV100 = log2(Aperture^2 / Shutter Speed * 100/ISO)
 
 >Exposure in the following formula defines the relationship between the scene surface luminance (L, which is measured in cd/m2) and pixel brightness (B) before the tonemapper and exposure compensation are applied.
+
 B(픽셀 밝기) = Exposure * L
 
 
 
-### Auto Exposure
+### Auto Exposure ( Eye Adaption )
 화면 전체의 기본 Luminance를 18% Gray 즉 Final Color로는 화면 전체 평균 Luminance를 50% Gray(127)로 맞추기 위해 있는것입니다
 
 예) 어두운 곳에 가면, 화면의 전체 평균 Luminance밝기를 50% Gray로 맞추는 형태라면
