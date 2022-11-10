@@ -10,5 +10,7 @@ search: false
 
 
 html {
-  font-size: 12px;
+  .page__content p {
+      font-size: 12px;
+  }  
 }
