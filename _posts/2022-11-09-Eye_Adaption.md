@@ -4,6 +4,12 @@ date: 2022-11-04 13:40:00
 categories: lumen, ue5
 ---
 
+### 현재 화면의 밝기
+
+Exposure = 1/(2^(EV100 + Exposure Compensation))
+EV100 = log2(Aperture^2 / Shutter Speed * 100/ISO)
+B = Exposure * L
+
 Auto Exposure
 화면 전체의 기본 Luminance를 18% Gray 즉 Final Color로는 50% Gray(127)로 맞추기 위해 있는것
 
