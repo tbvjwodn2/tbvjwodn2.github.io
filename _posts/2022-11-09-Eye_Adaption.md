@@ -17,6 +17,7 @@ B(픽셀 밝기) = Exposure * L
 
 
 ## Auto Exposure ( Eye Adaption )
+
 화면 전체의 기본 Luminance를 18% Gray 즉 Final Color로는 화면 전체 평균 Luminance를 50% Gray(127)로 맞추기 위해 있는것입니다
 
 예) 어두운 곳에 가면, 화면의 전체 평균 Luminance밝기를 50% Gray로 맞추는 형태라면
@@ -33,28 +34,36 @@ B의 50% Gray를 맞춰주기위해 L(현재 화면 평균 밝기)에 현재 스
 
 
 
-## 몇 가지 실험
+## 몇 가지 실험 해보기
 
 #### 흐린날씨 만들기
 흐린날씨 or 밝은 환경을 만들어보면 이해가 쉬워집니다
 
-환경
+**Project Settings**
+
+Extend Default luminance range in Auto Exposure Settings를 체크
+
+**환경**
+
 - Sky Atmosphere
 - Directional Light
 - Height Fog
 - Sky Light
 
-**Post Process**에서
+**Post Process**
+Lens
 - Min Ev100을 -10으로 설정
 - Max Ev100을 -20으로 설정
 그리고 Directional Light Intensity를 조절하여 흐린날씨를 만들어봅시다
 
-아마 거의 불가능할것이다
-Directional Light의 Intensity를 0.1이나 10이나, 50이나 차이가 없기 똑같이 그려질것이다
+아마 Directional Light를 엄청난 소수점까지 내려야 흐려질겁니다
+Directional Light의 Intensity를 0.1이나 10이나, 50이나 차이가 없기 똑같이 보일겁니다
 
-이것이 바로 Min Ev100과 Max Ev100의 기능이다
-어떠한 밝기에 상관없이 화면의 평균 Luminance값을 50%로 맞추려고 하는것..
- 
+눈이 어두운곳, 밝은곳 가서 적응하는것처럼, Eye Adaption(Auto Exposure)기능이 그 기능을 하고 있기때문에
+어떠한 밝기에 상관없이 화면의 평균 Luminance값을 50%로 맞추려고 합니다
+
+이 기능이 Post Process의 Min Ev100과 Max Ev100의 역활 중 하나입니다
+
 이렇게 되면, 생각날것이
 UE4, UE5에서 갑자기 밝은 것을 보게되면, 주변 모든것들이 어두워지는 현상
 또는 어두운 것을 보면 모든것들이 밝아지는 현상을 자주 목격합니다
