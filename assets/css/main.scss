@@ -10,7 +10,10 @@ search: false
 
 
 html {
-  .page__content p li {
-      font-size: 0.5em;
+  .page__content p {
+      font-size: 0.8em;
   }  
+  .page__content li {
+      font-size: 0.8em;
+  }
 }
