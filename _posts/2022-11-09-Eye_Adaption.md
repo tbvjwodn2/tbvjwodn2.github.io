@@ -4,7 +4,7 @@ date: 2022-11-04 13:40:00
 categories: lumen, ue5
 ---
 
-### 화면의 밝기
+## 화면의 밝기
 
 Exposure = 1/(2^(EV100 + Exposure Compensation))
 
@@ -16,7 +16,7 @@ B(픽셀 밝기) = Exposure * L
 
 
 
-### Auto Exposure ( Eye Adaption )
+## Auto Exposure ( Eye Adaption )
 화면 전체의 기본 Luminance를 18% Gray 즉 Final Color로는 화면 전체 평균 Luminance를 50% Gray(127)로 맞추기 위해 있는것입니다
 
 예) 어두운 곳에 가면, 화면의 전체 평균 Luminance밝기를 50% Gray로 맞추는 형태라면
@@ -33,15 +33,21 @@ B의 50% Gray를 맞춰주기위해 L(현재 화면 평균 밝기)에 현재 스
 
 
 
-### 몇 가지 실험
+## 몇 가지 실험
 
 #### 흐린날씨 만들기
 흐린날씨 or 밝은 환경을 만들어보면 이해가 쉬워집니다
 
+환경
+- Sky Atmosphere
+- Directional Light
+- Height Fog
+- Sky Light
+
 **Post Process**에서
 - Min Ev100을 -10으로 설정
 - Max Ev100을 -20으로 설정
-그리고 Directional Light Intensity를 조절하여, 흐린날씨를 만들어보자
+그리고 Directional Light Intensity를 조절하여 흐린날씨를 만들어봅시다
 
 아마 거의 불가능할것이다
 Directional Light의 Intensity를 0.1이나 10이나, 50이나 차이가 없기 똑같이 그려질것이다
