@@ -4,7 +4,7 @@ date: 2022-11-04 13:40:00
 categories: lumen, ue5
 ---
 
-## 화면의 밝기
+## 화면의 밝기 (이 파트는 이해 안해도됨)
 
 Exposure = 1/(2^(EV100 + Exposure Compensation))
 
