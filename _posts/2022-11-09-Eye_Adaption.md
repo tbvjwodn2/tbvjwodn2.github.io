@@ -19,7 +19,7 @@ B(픽셀 밝기) = Exposure * L
 ## Auto Exposure ( Eye Adaption )
 
 화면 전체의 기본 Luminance를 18% Gray 즉 Final Color로는 화면 전체 평균 Luminance를 50% Gray(127)로 맞추기 위해 있는것입니다
-<s> 18% Gray는 감마 보정이랑 관련있어서 더 자세한 내용은 [여기](https://blog.naver.com/psy2993/90081371916)
+~~18% Gray는 감마 보정이랑 관련있어서~~ 더 자세한 내용은 [여기](https://blog.naver.com/psy2993/90081371916)
 
 예) 어두운 곳에 가면, 화면의 전체 평균 Luminance밝기를 50% Gray로 맞추는 형태라면
 화면 전체의 Luminance값을 평균내서 나온 값이 40% Gray라고 가정하면, 50%가 되기까지 10%가 부족하기에, 전체 화면에 10%를 더해줘 50%의 평균 Luminance값을 갖도록 해줍니다
