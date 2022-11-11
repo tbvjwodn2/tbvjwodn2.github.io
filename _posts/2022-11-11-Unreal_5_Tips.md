@@ -1,10 +1,4 @@
----
-title: "UE5 Helpful Tips"
-date: 2022-11-11 1:21:00
-categories: unreal
----
-
- 콘솔창 : dumpticks
+콘솔창 : dumpticks
 현재 사용되고 있는 모든 Tick
 Shows where ticks are currently used
 ![image](https://user-images.githubusercontent.com/45751396/196877214-10118656-4960-45ab-9838-1f01fdc6bc3b.png)
