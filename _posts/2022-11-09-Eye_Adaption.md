@@ -51,8 +51,11 @@ Extend Default luminance range in Auto Exposure Settings를 체크
 - Height Fog
 - Sky Light
 
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/45751396/200777860-07cda334-8d60-471c-ad10-a5347927ca0b.png">
 **Post Process**
+
 Lens
+
 - Min Ev100을 -10으로 설정
 - Max Ev100을 -20으로 설정
 그리고 Directional Light Intensity를 조절하여 흐린날씨를 만들어봅시다
@@ -87,7 +90,7 @@ Histogram Min Ev100 ~~ Histogram Max Ev100를 조절하여 밑의 사진과 같�
 
 <img width="1008" alt="image" src="https://user-images.githubusercontent.com/45751396/200778406-6ef8132e-45aa-449e-8220-e6b69e1f509e.png">
 
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/45751396/200777860-07cda334-8d60-471c-ad10-a5347927ca0b.png">
+
 
 
 ![image](https://user-images.githubusercontent.com/45751396/200765729-abae3aea-f88a-46f5-91d3-c753e7e47016.png)
