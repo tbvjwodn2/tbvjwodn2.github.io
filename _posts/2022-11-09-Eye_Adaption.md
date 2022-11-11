@@ -52,6 +52,7 @@ Extend Default luminance range in Auto Exposure Settings를 체크
 - Sky Light
 
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/45751396/200777860-07cda334-8d60-471c-ad10-a5347927ca0b.png">
+
 **Post Process**
 
 Lens
