@@ -65,7 +65,12 @@ Directional Light의 Intensity를 0.1이나 10이나, 50이나 차이가 없기 
 
 이 기능이 Post Process의 Min Ev100과 Max Ev100의 역활 중 하나입니다
 
-이렇게 되면, 생각날것이
+- Min Ev100으로 얼마나 어두운 범위까지 눈(화면)을 50% Gray로 맞출것인가
+- Max Ev100으로 얼마나 밝은 범위까지 눈(화면)을 50% Gray로 맞출것인가
+
+
+##### 하지만 쉽지않죠
+
 UE4, UE5에서 갑자기 밝은 것을 보게되면, 주변 모든것들이 어두워지는 현상
 또는 어두운 것을 보면 모든것들이 밝아지는 현상을 자주 목격합니다
 
@@ -83,16 +88,6 @@ Histogram Min Ev100 ~~ Histogram Max Ev100를 조절하여 밑의 사진과 같�
 <img width="1008" alt="image" src="https://user-images.githubusercontent.com/45751396/200778406-6ef8132e-45aa-449e-8220-e6b69e1f509e.png">
 
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/45751396/200777860-07cda334-8d60-471c-ad10-a5347927ca0b.png">
-
-
-
-
-
-
-
-
-
-Low Percent와 High Percent이다
 
 
 ![image](https://user-images.githubusercontent.com/45751396/200765729-abae3aea-f88a-46f5-91d3-c753e7e47016.png)
