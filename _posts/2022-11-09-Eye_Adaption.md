@@ -90,9 +90,13 @@ UE4, UE5에서 갑자기 밝은 것을 보게되면, 주변 모든것들이 어�
 Histogram Min Ev100 ~~ Histogram Max Ev100를 조절하여 밑의 사진과 같이, Histogram자체를 Clipping해버려서, Exposure 계산 자체게 들어가지 않도록 할 수 있습니다
 
 >EyeAdaption에서 제외할 밝은 부분, 어두운 부분은 
+>
 >r.EyeAdaptation.VisualizeDebugType 1
+>
 >해당 커멘드로 확인할 수 있습니다
+>
 > Red = 너무 어두워서 제외된 픽셀들
+> 
 > Blue = 너무 밝아서 제외된 픽셀들
 
 <img width="1008" alt="image" src="https://user-images.githubusercontent.com/45751396/200778406-6ef8132e-45aa-449e-8220-e6b69e1f509e.png">
