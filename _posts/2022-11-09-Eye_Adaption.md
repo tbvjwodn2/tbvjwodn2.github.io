@@ -58,7 +58,7 @@ Extend Default luminance range in Auto Exposure Settings를 체크
 Lens
 
 - Min Ev100을 -10으로 설정
-- Max Ev100을 -20으로 설정
+- Max Ev100을 20으로 설정
 그리고 Directional Light Intensity를 조절하여 흐린날씨를 만들어봅시다
 
 아마 Directional Light를 엄청난 소수점까지 내려야 흐려질겁니다
